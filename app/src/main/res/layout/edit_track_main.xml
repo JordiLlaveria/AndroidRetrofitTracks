@@ -40,7 +40,8 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textSinger"
         app:layout_constraintStart_toStartOf="@+id/textSinger"
-        app:layout_constraintTop_toBottomOf="@+id/textID" />
+        app:layout_constraintTop_toBottomOf="@+id/textID"
+        app:layout_constraintVertical_bias="0.6" />
 
     <EditText
         android:id="@+id/textSinger"
@@ -53,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32999998"
+        app:layout_constraintVertical_bias="0.36"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -64,7 +65,8 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textTitle"
         app:layout_constraintStart_toStartOf="@+id/textTitle"
-        app:layout_constraintTop_toBottomOf="@+id/textSinger" />
+        app:layout_constraintTop_toBottomOf="@+id/textSinger"
+        app:layout_constraintVertical_bias="0.6" />
 
     <EditText
         android:id="@+id/textTitle"
@@ -96,7 +98,7 @@
         android:id="@+id/buttonPOST"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="125dp"
         android:text="ADD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textTitle" />
